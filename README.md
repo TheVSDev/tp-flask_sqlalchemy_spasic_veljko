@@ -11,7 +11,7 @@ Backend d'une application de réservation de chambres d'hôtel pour une chaîne 
 
 To **setup** the project follow these instructions.
 
-A the **root of the project**:
+At the **root of the project**:
 1. In the terminal:
 ```sh
 docker compose build
