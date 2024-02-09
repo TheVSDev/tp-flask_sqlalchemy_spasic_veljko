@@ -16,8 +16,7 @@ def create_app():
 
     migrate.init_app(app, db)
 
-    @app.route("/")
-    def hello_world():
-        return "<p>Hello, World!</p>"
+    from .routes import main
+    app.register_blueprint(main)
 
     return app
